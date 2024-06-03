@@ -4,7 +4,7 @@ const liveurl = 'mongodb+srv://ansh9754:ansh123@cluster0.a2zclkg.mongodb.net/Blo
 
 
 const connectDB =()=>{
-    return mongoose.connect(localurl)
+    return mongoose.connect(liveurl)
 
     .then(()=>{
         console.log("mongoose connected succefully")
